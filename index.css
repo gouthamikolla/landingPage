@@ -1,0 +1,43 @@
+*{
+  margin:0px;
+}
+
+header{
+  display: flex;
+  background-color: yellow;
+  align-items: center;
+}
+
+header img {
+  width: 80px;
+  
+}
+
+.logo{
+  display: flex;
+  flex-grow: 1;
+  
+}
+
+.logo p{
+  padding-bottom: 20px;
+}
+
+nav ul li{
+  display: inline-block;
+  padding:15px;
+}
+
+
+nav{
+    /* border :5px solid green; */
+    flex-grow: 1;
+}
+
+nav ul{
+list-style: none;
+
+}
+nav ul a{
+text-decoration: none;
+}
