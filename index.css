@@ -10,6 +10,9 @@ header{
 
 header img {
   width: 80px;
+  border: 1px solid yellow;
+  border-radius: 25%;
+  
   
 }
 
@@ -18,11 +21,15 @@ header img {
   flex-grow: 1;
   align-items: center;
   justify-content: flex-start;
-  
+   
 }
 
 .logo p{
   margin-left: 15px;
+  font-size: 25px;
+  font-weight: bold;
+  color: brown;
+  letter-spacing: 0.05em;
 }
 
 nav ul li{
@@ -41,7 +48,25 @@ nav{
 nav ul{
 list-style: none;
 
+
 }
 nav ul a{
 text-decoration: none;
+font-size: 20px;
+color:green;
+/* cursor: pointer; */
 }
+
+a:hover{
+  cursor: default;
+  color: black;
+}
+ 
+@media screen and (max-width:760px){
+  /* nav ul{
+    display: none;
+   } */
+  nav ul li{
+    display: block;
+   }
+} 
