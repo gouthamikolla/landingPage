@@ -16,22 +16,26 @@ header img {
 .logo{
   display: flex;
   flex-grow: 1;
+  align-items: center;
+  justify-content: flex-start;
   
 }
 
 .logo p{
-  padding-bottom: 0px;
+  margin-left: 15px;
 }
 
 nav ul li{
   display: inline-block;
   padding:15px;
+  
 }
 
 
 nav{
     /* border :5px solid green; */
     flex-grow: 1;
+      align-items: center;
 }
 
 nav ul{
